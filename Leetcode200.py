@@ -36,7 +36,6 @@ class Solution(object):
         def dfs(row, col):
             """
             Recursively explores the island starting from cell (row, col) and marks all connected land cells as visited.
-
             :param row: The row index of the current cell.
             :param col: The column index of the current cell.
             :return: None (modifies the 'visited' grid in place).

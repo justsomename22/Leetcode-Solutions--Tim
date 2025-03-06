@@ -9,7 +9,6 @@ class Solution(object):
     def length_of_longest_substring(self, s):
         """
         Finds the length of the longest substring without repeating characters.
-
         Args:
             s (str): The input string.
         Returns:
@@ -34,7 +33,5 @@ class Solution(object):
 if __name__ == '__main__':
     sol = Solution()  # Create an instance of the 'Solution' class.
     input_string = "abcabcbb"  # Define the input string for which we want to find the length of the longest substring without repeating characters.
-    returned_result_4 = sol.length_of_longest_substring(input_string)  # Call the 'length_of_longest_substring' method with the input string and store the result.
+    returned_result_4 = sol.length_of_longest_substring(input_string)
     print(returned_result_4)  
-    # Print the returned result to the console. For the input "abcabcbb", 
-    #the longest substring without repeating characters is "abc", which has length 3. So, the output will be 3.

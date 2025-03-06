@@ -1,9 +1,8 @@
+"""
+Given the root of a binary tree, return its maximum depth.
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+"""
 class TreeNode(object):
-    """
-    Definition for a binary tree node.
-    This class represents a node in a binary tree. Each node can have a value,
-    a left child, and a right child.
-    """
     def __init__(self, val=0, left=None, right=None):
         """
         Initializes a TreeNode object.

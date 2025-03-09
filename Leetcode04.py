@@ -52,7 +52,7 @@ class Solution(object):
             else: # maxLeftY > minRightX (implicitly)
                 # 'first' array's left partition is too small (elements are too small), so move partition to the right
                 low = partitionX + 1
-        return 0.0 # Should not reach here in valid cases
+        return 0.0
 
 if __name__ == '__main__':
     sol = Solution()
